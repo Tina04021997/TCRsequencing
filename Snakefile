@@ -13,7 +13,6 @@ rule all:
     input:
         expand(["results/{sample}.txt"], sample = SAMPLES)
 
-
 #Step1: Perform FastQC
 rule fastqc:
      input:
