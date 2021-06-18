@@ -1,5 +1,5 @@
 # TCRsequencing
-This is the workflow for TCR sequencing by MiXCR and analysis with Immunarch.
+This is the workflow for TCR sequencing and analysis aimed at tumor TCR repertoire contraction/oligoclonality study. Datas were obtained from B6 mice(CTRL/tumor-treated groups).  
 ## Pipeline workflow
 
 ## Environments
@@ -8,7 +8,7 @@ This is the workflow for TCR sequencing by MiXCR and analysis with Immunarch.
 - Snakemake v5.7.0
 
 ## Input data
-- Paired-end fastq files obtained from 5’RACE TCR sequencing (TAKARA SMARTer)[https://www.takarabio.com/learning-centers/next-generation-sequencing/technical-notes/immune-profiling/tcr-repertoire-profiling-from-human-samples-(bulk)]
+- Paired-end fastq files obtained from 5’RACE TCR sequencing [TAKARA SMARTer](https://www.takarabio.com/learning-centers/next-generation-sequencing/technical-notes/immune-profiling/tcr-repertoire-profiling-from-human-samples-(bulk))
 ## Output data
 -  txt files
 
