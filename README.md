@@ -1,5 +1,7 @@
 # TCR sequencing
-This is the workflow for TCR sequencing and analysis aimed at tumor TCR repertoire contraction/oligoclonality study. Datas were obtained from B6 mice(CTRL/tumor-treated groups).  
+This is the workflow for TCR sequencing and analysis aimed at tumor TCR repertoire contraction/oligoclonality study. 
+
+Datas were obtained from B6 mice(CTRL/tumor-treated groups).  
 ## Pipeline workflow
 
 ## Environments
