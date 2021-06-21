@@ -15,6 +15,11 @@ This is the workflow for TCR sequencing and analysis aimed at tumor TCR repertoi
 ## Run Snakefile
 Run **Snakefile** by ```snakemake -p -j 20```
 
+## Download sample.txt file from Linux to desktop
+Navigate to desktop's local terminal and enter the following scp line at command.
+```
+$scp LinuxUserName@avisIP:[sample.txt file path] ~/Desktop/
+
 ## References
 MiXCR Documantation
 - https://mixcr.readthedocs.io/en/master/quickstart.html
