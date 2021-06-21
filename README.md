@@ -19,6 +19,7 @@ Run **Snakefile** by ```snakemake -p -j 20```
 Navigate to desktop's local terminal and enter the following scp line at command.
 ```
 $scp LinuxUserName@avisIP:[sample.txt file path] ~/Desktop/
+```
 
 ## References
 MiXCR Documantation
