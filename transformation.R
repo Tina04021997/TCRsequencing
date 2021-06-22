@@ -1,3 +1,4 @@
+# Data transformation for VDJviz web analyzation input
 install.packages("tidyverse")
 library("tidyverse")
 setwd("[Raw CSV path]")
