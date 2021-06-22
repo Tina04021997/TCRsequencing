@@ -1,5 +1,5 @@
 # TCR sequencing
-- This is the workflow of TCR sequencing and analysis for tumor TCR repertoire contraction/oligoclonality study. 
+- This is the workflow of TCR sequencing and analysis for tumor TCR repertoire contraction / oligoclonality study
 - Raw sequencing datas were processed through MiXCR for clonotype observation and analyzed with Immunarch as well as VDJviz
 
 
