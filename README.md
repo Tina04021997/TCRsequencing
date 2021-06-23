@@ -18,10 +18,22 @@ Which includes:
 - Snakemake v5.7.0
 
 ## Input data
-- Paired-end fastq files obtained from 5’RACE TCR sequencing [TAKARA SMARTer](https://www.takarabio.com/learning-centers/next-generation-sequencing/technical-notes/immune-profiling/tcr-repertoire-profiling-from-human-samples-(bulk))
+- Paired-end fastq files obtained from 5’RACE TCR sequencing [TAKARA SMARTer](https://www.takarabio.com/learning-centers/next-generation-sequencing/technical-notes/immune-profiling/tcr-repertoire-profiling-from-human-samples-(bulk)), total 16 fastq files
 - Bulk datas were obtained from B6 mice(CTRL/tumor-treated groups)
+- Metadata
 
-## Output data
+| Sample  | Number | Tissue  | Chain | Type  | Source | Batch  | N |
+| ------------- | :-------------: | :-------------: | :-------------: | :-----: | :-----: | :---: | :---: |
+| 1418-LN-TCR-a  | 1418 | LN  | TCR-a  | Ctrl  | TGIA  | 1  | 5  |
+| 1418-LN-TCR-b  | 1418 | LN  | TCR-b  | Ctrl  | TGIA  | 1  | 5  |
+| 1418-SP-TCR-a  | 1418 | SP  | TCR-a  | Ctrl  | TGIA  | 1  | 5  |
+| 1418-SP-TCR-b  | 1418 | SP  | TCR-b  | Ctrl  | TGIA  | 1  | 5  |
+| 6973-LN-TCR-a  | 6973 | LN  | TCR-a  | MTCQ1  | TGIA  | 1  | 5  |
+| 6973-LN-TCR-b  | 6973 | LN  | TCR-b  | MTCQ1  | TGIA  | 1  | 5  |
+| 6973-SP-TCR-a  | 6973 | SP  | TCR-a  | MTCQ1  | TGIA  | 1  | 5  |
+| 6973-SP-TCR-b  | 6973 | SP  | TCR-b  | MTCQ1  | TGIA  | 1  | 5  |
+
+## Output data 
 -  txt files
 
 ## Run Snakefile
