@@ -1,7 +1,7 @@
 # Data transformation for VDJviz web analyzation input
 install.packages("tidyverse")
 library("tidyverse")
-setwd("[Raw CSV path]")
+setwd("[Raw data path]")
 
 df <- read.csv("sample_name")
 df <- df[-c(1,4:5,7,9,11:22,24:36,38:39)] #remove the unwanted cloumns
