@@ -1,4 +1,7 @@
+# Author: Tina Yang
+# Date: Jun 24, 2021
 # Data transformation for VDJviz web-based analyzation
+
 install.packages("tidyverse")
 library("tidyverse")
 setwd("[Raw data path]")
