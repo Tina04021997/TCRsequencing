@@ -1,4 +1,4 @@
-# Data transformation for VDJviz web analyzation input
+# Data transformation for VDJviz web-based analyzation
 install.packages("tidyverse")
 library("tidyverse")
 setwd("[Raw data path]")
