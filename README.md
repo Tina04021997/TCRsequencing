@@ -51,3 +51,6 @@ MiXCR Documantation
 
 Immunarch Documentation
 - https://immunarch.com/
+
+Load MiXCR files into Immunarch
+- https://immunarch.com/articles/web_only/load_mixcr.html#loading-a-folder
