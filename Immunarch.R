@@ -3,10 +3,10 @@
 # TCRseq data analysis with Immunarch
 # The script includes the following features:
   #1. Clonotypes Information Discovery
-  #2. Repertoire overlap
-  #3. Gene usage computation
-  #4. Clonotypes tracking
-  #5. Diversity estimation
+  #2. Repertoire Overlap
+  #3. Gene Usage Computation
+  #4. Clonotypes Tracking
+  #5. Diversity Estimation
 
 setwd("~/Desktop/Joey Lab/Immunarch exercise")
 library(immunarch)
