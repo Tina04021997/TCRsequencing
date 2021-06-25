@@ -42,7 +42,7 @@ Run **Snakefile** by ```snakemake -p -j 20```
 ## Download sample.txt file from Linux to desktop
 Navigate to desktop's local terminal and enter the following scp line at command.
 ```
-$scp LinuxUserName@avisIP:[sample.txt file path] ~/Desktop/
+$scp LinuxUserName@avisIP:sample.txt_file_path ~/Desktop/
 ```
 
 ## References
