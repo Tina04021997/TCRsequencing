@@ -9,8 +9,8 @@ Which includes:
 2. Alignment: MiXCR
 3. Assemble Clones: MiXCR
 4. Export txt files: MiXCR
-5. Bulk TCR exploration (in R Studio): Immunarch
-6. Circos plot (in VDJviz browser): VDJviz
+5. Bulk TCR exploration (R Studio): Immunarch
+6. Circos plot (VDJviz browser): VDJviz
 
 ## Environments
 - MiXCR v3.0.13
