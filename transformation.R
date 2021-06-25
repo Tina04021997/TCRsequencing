@@ -4,10 +4,10 @@
 
 install.packages("tidyverse")
 library("tidyverse")
-setwd("[Raw data path]")
+setwd("Raw_data_path")
 
 df <- read.csv("sample_name")
-df <- df[-c(1,4:5,7,9,11:22,24:36,38:39)] #remove the unwanted cloumns
+df <- df[-c(1,4:5,7,9,11:22,24:36,38:39)] #remove the unwanted columns
 df <- df %>% slice(1:10000) #keep only top 10,000 clonotypes (due to VDJviz browser limitation)
 df <- df[,c(1,2,6,7,3,4,5)]
 colnames(df) <- c("#count","freq","cdf3nt","cdr3aa","v","d","j")
