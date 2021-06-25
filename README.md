@@ -12,6 +12,8 @@ Which includes:
 5. Bulk TCR exploration (R Studio): Immunarch
 6. Circos plot (VDJviz browser): VDJviz
 
+<img src="https://github.com/Tina04021997/TCRsequencing/blob/main/TCRflow.jpg">
+
 ## Environments
 - MiXCR v3.0.13
 - Python v3.6.13
