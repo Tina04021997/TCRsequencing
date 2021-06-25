@@ -2,12 +2,11 @@
 # Date: Jun 23,2021
 # TCRseq data analysis with Immunarch
 # The script includes the following features:
-  #1. Number of unique clonotypes
-  #2. Clonotype abundances distribution
-  #3. Repertoire overlap
-  #4. Gene usage computation
-  #5. Clonotypes tracking
-  #6. Diversity estimation
+  #1. Clonotypes Information Discovery
+  #2. Repertoire overlap
+  #3. Gene usage computation
+  #4. Clonotypes tracking
+  #5. Diversity estimation
 
 setwd("~/Desktop/Joey Lab/Immunarch exercise")
 library(immunarch)
@@ -17,7 +16,7 @@ immdata_mixcr <- repLoad(file_path)
 immdata_mixcr$data$`1418-LN-TCR-a` # Take a look at the data
 
 
-##### Clonotypes Information #####
+##### Clonotypes Information Discovery #####
 ### Number of unique clonotypes
 # Grouping by using .by and .meta
 exp_vol <- repExplore(immdata_mixcr$data, .method = "volume")
