@@ -4,8 +4,10 @@
 # The script includes the following features:
   #1. Number of unique clonotypes
   #2. Clonotype abundances distribution
-  #3. Gene usage computation
-  #4.
+  #3. Repertoire overlap
+  #4. Gene usage computation
+  #5. Clonotypes tracking
+  #6. Diversity estimation
 
 setwd("~/Desktop/Joey Lab/Immunarch exercise")
 library(immunarch)
@@ -52,3 +54,23 @@ vis(imm_gu_trav)
 # Use TRAJ genes of Mus Musculus as input 
 imm_gu_traj <- geneUsage(immdata_mixcr$data[c(1,3)], "musmus.traj", .ambig = "exc", .norm = T)
 vis(imm_gu_traj)
+
+##### Clonotypes tracking #####
+# Finding most abundant clonotypes of TCR-alpha
+# To choose the 10 most abundant aa clonotype sequences and their V +J gene segments from the “6973-LN-TCR-b” repertoire to track
+tc <- trackClonotypes(immdata_mixcr$data[c(2,4,6,8)], list("6973-LN-TCR-b", 15), .col = "aa+v+j")
+vis(tc, .plot = "smooth") + scale_fill_brewer(palette = "Spectral")
+
+
+##### Sample Diversity estimation #####
+### Hill numbers of beta-chain
+div_hill_b <- repDiversity(immdata_mixcr$data[c(2,4,6,8)], "hill")
+vis(div_hill_b, .meta = immdata_mixcr$meta)
+
+### True diversity (effective number of types) of beta-chain
+div_div_b <- repDiversity(immdata_mixcr$data[c(2,4,6,8)], "div")
+vis(div_div_b)
+
+### Chao1 diversity of beta-chain
+div_chao_b <- repDiversity(immdata_mixcr$data[c(2,4,6,8)], "chao1")
+vis(div_chao_b)
