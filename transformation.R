@@ -12,8 +12,8 @@ colnames(df) <- c("#count","freq","cdf3nt","cdr3aa","v","d","j")
 df$d <- as.character("")
 df$d <- sub("",".",as.character(df$d))
 
-df$v<- gsub("*00","", as.character(df$v))
-df$j<- gsub("*00","", as.character(df$j))
+df$v <- gsub("*00","", as.character(df$v))
+df$j <- gsub("*00","", as.character(df$j))
 df$v <- gsub(".{1}$", "", as.character(df$v))
 df$j <- gsub(".{1}$", "", as.character(df$j))
 
