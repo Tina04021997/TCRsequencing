@@ -56,3 +56,6 @@ Immunarch Documentation
 
 Load MiXCR files into Immunarch
 - https://immunarch.com/articles/web_only/load_mixcr.html#loading-a-folder
+
+The new synthesis of diversity indices and similarity measures
+- http://www.loujost.com/Statistics%20and%20Physics/Diversity%20and%20Similarity/EffectiveNumberOfSpecies.htm
