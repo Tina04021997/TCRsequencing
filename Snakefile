@@ -9,6 +9,9 @@
  SAMPLES, = glob_wildcards("/LVM_data/tina/TCR0511/data/{sample}_L001_R1_001.fastq.gz")
 mixcr = "~/mixcr-3.0.13/mixcr"
 
+for sample in SAMPLES:
+        print("Sample " + sample + " will be processed...")
+
 rule all:
     input:
         expand(["results/{sample}.txt"], sample = SAMPLES)
