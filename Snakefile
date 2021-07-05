@@ -28,6 +28,10 @@ rule fastqc:
      log:
          "logs/fastqc/{sample}.log"
      threads: 1
+     params:
+        prefix = "{sample}"
+     message:
+        "...Now performing fastqc on {params.prefix}..."
      shell:
          "fastqc {input} -o qc/fastqc"
 
@@ -41,6 +45,10 @@ rule multiqc:
     log:
         "logs/multiqc/multiqc.log"
     threads: 1
+    params:
+        prefix = "{sample}"
+    message:
+        "...Now performing multiqc on {params.prefix}..."
     shell:
         "multiqc {input} -o qc/multiqc"
 
