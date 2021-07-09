@@ -22,7 +22,7 @@ Which includes:
 ## Input data
 - Paired-end fastq files obtained from 5’RACE TCR sequencing [TAKARA SMARTer](https://www.takarabio.com/learning-centers/next-generation-sequencing/technical-notes/immune-profiling/tcr-repertoire-profiling-from-human-samples-(bulk)), total 16 fastq files
 - Create soft link
-```ln -s path/to/data/```
+```$ln -s path/to/data/```
 - Bulk datas were obtained from B6 mice(CTRL/tumor-treated groups)
 - Metadata:
 
